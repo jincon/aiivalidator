@@ -1,0 +1,18 @@
+{
+  "name": "jincon/aiivalidator",
+  "description": "a simple & easy php validator class.",
+  "keywords": ["simple","validator", "php", "php validator"],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "authors": [
+      {
+          "name": "Jincon",
+          "email": "jincon@jincon.com"
+      }
+  ],
+  "autoload": {
+    "psr-4": {"Jincon\\AiiValidator\\": ""}
+  }
+}
