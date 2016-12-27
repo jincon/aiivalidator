@@ -11,9 +11,9 @@ return [
         'integer' => 'The :attribute field must be integer.'
     ],
     'cn'=> [
-        'email' => ':attribute 是不合法的Email地址',
-        'min' => ':attribute 至少 :min 字符.',
-        'max' => ':attribute 不能超过 :max 个字符.',
+        'email' => ':attribute 字段是不合法的Email地址',
+        'min' => ':attribute 字段至少 :min 字符.',
+        'max' => ':attribute 字段不能超过 :max 个字符.',
         'required' => ':attribute 字段必填.',
         'numeric' => ':attribute 字段必须为数字.',
         'ip' => ':attribute 字段必须为IP地址.',

@@ -10,7 +10,7 @@ If you have Composer, just include TinyValidator as a project dependency in your
 
 ```json
 require: {
-    "jincon/aiivalidator": "*"
+    "jincon/aiivalidator": "dev-master"
 }
 ```
 

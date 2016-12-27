@@ -74,7 +74,7 @@ class AiiValidator {
 
     protected function ip($value)
     {
-        return !ip2long($value) ? true : $this->reasons['ip'];
+        return ip2long($value) ? true : $this->reasons['ip'];
     }
 
 
